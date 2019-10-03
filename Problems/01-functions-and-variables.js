@@ -35,7 +35,7 @@ function hello (Hello!) {
   // or in this case you can just return the string directly
   // with something like "return 'Hello!'"
 }
-
+return hello 
 
 // Problem 2
 // Improve your initial function by accepting a parameter
