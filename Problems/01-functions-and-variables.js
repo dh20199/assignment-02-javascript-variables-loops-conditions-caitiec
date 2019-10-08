@@ -48,7 +48,7 @@ function hello() {
  * @param {string} name
  * @returns {string} a sentence that uses NAME i nits construction.
  */
-function ngreeting() {
+function greeting() {
 
   let name = Caitie;
   let ngreeting = hello + name;
