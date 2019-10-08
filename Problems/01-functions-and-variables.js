@@ -53,7 +53,7 @@ function greeting() {
   let hello = "Hello,";
 
   let name = "Caitie";
-  let ngreeting = hello + name;
+  let ngreeting = hello + " " + name;
   return ngreeting;
   // use the '+' operator to combine
   // strings.  So for instance, if I wanted to
