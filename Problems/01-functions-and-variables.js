@@ -50,7 +50,7 @@ function hello() {
  */
 function greeting() {
 
-  let name = Caitie;
+  let name = "Caitie";
   let ngreeting = hello + name;
   return ngreeting;
   // use the '+' operator to combine
