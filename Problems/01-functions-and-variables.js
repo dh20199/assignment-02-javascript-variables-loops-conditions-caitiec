@@ -50,6 +50,8 @@ function hello() {
  */
 function greeting() {
 
+  let hello = "Hello,";
+
   let name = "Caitie";
   let ngreeting = hello + name;
   return ngreeting;
