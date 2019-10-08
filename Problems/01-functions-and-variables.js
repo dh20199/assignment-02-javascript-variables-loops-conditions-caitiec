@@ -30,7 +30,7 @@
  * greet the user!
  * @returns {string} should be exactly "Hello!"
  */
-function hello () {
+function sayhello(hello) {
   let hello = "Hello!";
   return hello;
   // if you want you can declare a string variable first
@@ -48,10 +48,10 @@ function hello () {
  * @param {string} name
  * @returns {string} a sentence that uses NAME i nits construction.
  */
-function greeting() {
+function greeting(name) {
 
-  let name = Caitie 
-  let namedgreeting = hello + name
+  let name = Caitie;
+  let namedgreeting = sayhello + name;
   return namedgreeting
   // use the '+' operator to combine
   // strings.  So for instance, if I wanted to
