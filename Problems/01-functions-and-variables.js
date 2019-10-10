@@ -71,9 +71,9 @@ function greeting() {
  * @param {"Donuts"} third
  * @returns {array} 
  */
-let first = {"Tim"};
-let second = {"Horton"};
-let third = {"Donuts"};
+let first = "Tim";
+let second = "Horton";
+let third = "Donuts";
 
 function returnArray (first, second, third){
   let i=0
