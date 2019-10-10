@@ -97,7 +97,7 @@ returnArray('Tim', 'Horton','Donuts');
  * @returns {string} a sentence  composed from the first 3 elements of the array
  */
 function splitArray (thisArray) {
- 
+  thisArray['Tim', 'Horton', 'Donut'];
   // remember you can access individual elements of an array with
   // array[0]
   // array[1]
@@ -105,7 +105,7 @@ function splitArray (thisArray) {
 return [thisArray[1] + thisArray[2] + 'was a' + thisArray[3]];
 
 }
-thisArray['Tim', 'Horton', 'Donut'];
+
 
 // Problem 5
 // A. Write a simple function that takes two arguments.  Subtact the second number from the first.
