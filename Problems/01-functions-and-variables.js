@@ -73,10 +73,10 @@ function greeting() {
  */
 
 new Array ()
-function returnArray (first, second, third){
-  let first = "Tim"
-  let second = "Horton"
-  let third = "Donuts"
+function returnArray (Tim, Horton, Donuts){
+  let Tim = "Tim"
+  let Horton = "Horton"
+  let Donuts = "Donuts"
   let i=0
   while (i<returnArray.length){
     console.log(returnArray[i])
