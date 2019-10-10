@@ -66,14 +66,14 @@ function greeting() {
 // consisting of the three parameters together
 /**
  * creat an array from three inputs FIRST, SECOND, and THIRD
- * @param { "Tim"} first
- * @param { "Horton"} second
- * @param { "Donuts" } third
+ * @param { "Tim"} Tim
+ * @param { "Horton"} Horton
+ * @param { "Donuts" } Donuts
  * @returns {array} 
  */
 
 new Array (returnArray)
-function returnArray (first, second, third){
+function returnArray (Tim, Horton, Donuts){
   let i=0
   while (i<returnArray.length){
     i+=1;
