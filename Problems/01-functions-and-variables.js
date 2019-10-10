@@ -72,7 +72,7 @@ function greeting() {
  * @returns {array} 
  */
 
- new Array (alpha)
+new Array (returnArray)
 function returnArray (first, second, third){
   let i=0
   while (i<returnArray.length){
