@@ -71,7 +71,7 @@ function greeting() {
  * @param {"Donuts"} third
  * @returns {array} 
  */
-new array ()
+new array (first, second, third)
 function returnArray (first, second, third){
   let i=0
   while (i<returnArray.length){
