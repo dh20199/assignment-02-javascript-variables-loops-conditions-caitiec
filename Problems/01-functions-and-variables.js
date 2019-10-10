@@ -66,9 +66,9 @@ function greeting() {
 // consisting of the three parameters together
 /**
  * creat an array from three inputs FIRST, SECOND, and THIRD
- * @param {"'Tim'"} first
- * @param {"'Horton'"} second
- * @param {"'Donuts'"} third
+ * @param {"Tim"} first
+ * @param {"Horton"} second
+ * @param {"Donuts"} third
  * @returns {array} 
  */
 
@@ -78,7 +78,7 @@ function returnArray (first, second, third) {
     console.log(returnArray[i]);
     i+=1;
   }
-  return returnArray
+
 
   // you can define the array using "new Array ()" or just "[ , , ]"
   // don't forget to return it
