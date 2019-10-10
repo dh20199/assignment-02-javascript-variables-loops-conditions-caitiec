@@ -74,9 +74,9 @@ function greeting() {
 
 new Array (returnArray)
 function returnArray (Tim, Horton, Donuts){
-Let Tim = {"Tim"}
-Let Horton = {"Horton"}
-Let Donuts = {"Donuts"} 
+Let Tim = "Tim",
+Horton = "Horton",
+Donuts = "Donuts";
   let i=0
   while (i<returnArray.length){
     i+=1;
