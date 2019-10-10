@@ -50,10 +50,9 @@ function hello() {
  */
 function greeting() {
 
-  let hello = "Hello,";
-
-  let name = "Ms. Atwood";
-  let ngreeting = hello + " " + name + "!";
+  let hello = "Hello,",
+  name = "Ms. Atwood",
+  ngreeting = hello + " " + name + "!";
   return ngreeting;
   // use the '+' operator to combine
   // strings.  So for instance, if I wanted to
@@ -73,6 +72,14 @@ function greeting() {
  * @returns {array} 
  */
 function returnArray (first, second, third) {
+  let Array = ["Tim" "Horton" "donuts"]
+  let i=0
+  while (i<Array.length){
+    console.log(Array[i]);
+    i+=1;
+  }
+  return returnArray
+
   // you can define the array using "new Array ()" or just "[ , , ]"
   // don't forget to return it
 }
