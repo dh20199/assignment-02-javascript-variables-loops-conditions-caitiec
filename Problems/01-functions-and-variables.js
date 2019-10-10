@@ -146,7 +146,7 @@ function carefulSubtract (first, second) {
  * @returns {} a meessage about unknown, or the square of unknown if it is a number
  */
 function typeTester (unknown) {
-  switch (){
+  switch (variables){
     if {  
     case {String}: return { {String} + ' '+'yay'};
     case {Number}: return Number * Number;
