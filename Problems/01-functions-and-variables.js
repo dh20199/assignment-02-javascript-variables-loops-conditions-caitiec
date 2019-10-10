@@ -66,20 +66,23 @@ function greeting() {
 // consisting of the three parameters together
 /**
  * creat an array from three inputs FIRST, SECOND, and THIRD
- * @param {"Tim"} Tim
- * @param {"Horton"} Horton
- * @param {"Donuts"} Donuts
+ * @param {} first
+ * @param {} second
+ * @param {} third
  * @returns {array} 
  */
 
-new Array (returnArray)
-function returnArray (Tim, Horton, Donuts){
+new Array ()
+function returnArray (first, second, third){
+  let first = "Tim"
+  let second = "Horton"
+  let third = "Donuts"
   let i=0
   while (i<returnArray.length){
     console.log(returnArray[i])
     i+=1;
   }
-return returnArray
+return Array
 
   // you can define the array using "new Array ()" or just "[ , , ]"
   // don't forget to return it
