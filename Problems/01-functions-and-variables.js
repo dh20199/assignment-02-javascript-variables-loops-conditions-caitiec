@@ -82,7 +82,7 @@ function returnArray (first, second, third){
     console.log(returnArray[i]);
     i+=1;
   }
-
+return returnArray
 
   // you can define the array using "new Array ()" or just "[ , , ]"
   // don't forget to return it
