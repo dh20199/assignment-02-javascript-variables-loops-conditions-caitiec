@@ -76,7 +76,6 @@ new Array (returnArray)
 function returnArray (first, second, third){
   let i=0
   while (i<returnArray.length){
-    console.log(returnArray[i]);
     i+=1;
   }
 return returnArray
