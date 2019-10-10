@@ -74,9 +74,9 @@ function greeting() {
 
 new Array (returnArray)
 function returnArray (Tim, Horton, Donuts){
-@param {"Tim"} Tim
- @param {"Horton"} Horton
- @param {"Donuts"} Donuts
+Let Tim = {"Tim"}
+Let Horton = {"Horton"}
+Let Donuts = {"Donuts"} 
   let i=0
   while (i<returnArray.length){
     i+=1;
