@@ -66,9 +66,9 @@ function greeting() {
 // consisting of the three parameters together
 /**
  * creat an array from three inputs FIRST, SECOND, and THIRD
- * @param { "Tim"} Tim
- * @param { "Horton"} Horton
- * @param { "Donuts" } Donuts
+ * @param {"Tim"} Tim
+ * @param {"Horton"} Horton
+ * @param {"Donuts"} Donuts
  * @returns {array} 
  */
 
