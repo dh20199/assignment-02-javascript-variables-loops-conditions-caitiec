@@ -146,10 +146,14 @@ function carefulSubtract (first, second) {
  * @returns {} a meessage about unknown, or the square of unknown if it is a number
  */
 function typeTester (unknown) {
-  if String, return { {String} + ' '+'yay'};
-  if Number, return function (n){ return n * n};
-  if null, return "sorry, I can't do anything with a null value";
-  else return "I don't know how to use that kind of variable";
+  switch (){
+    if {  
+    case {String}: return { {String} + ' '+'yay'};
+    case {Number}: return Number * Number;
+    case {null}: return "sorry, I can't do anything with a null value";
+  }
+    else return "I don't know how to use that kind of variable";
+  }
   // use an if/else construction, a switch/case , or any other branching logic. Remember to
   // return a value. 
 }
