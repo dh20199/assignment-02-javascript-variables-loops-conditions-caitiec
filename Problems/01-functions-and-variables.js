@@ -101,8 +101,10 @@ function splitArray (thisArray) {
   // array[0]
   // array[1]
   // etc.
+return thisArray[0],thisArray[1], "was a", thisArray[2];
 
 }
+thisArray('Tim', 'Horton', 'Donut');
 
 // Problem 5
 // A. Write a simple function that takes two arguments.  Subtact the second number from the first.
