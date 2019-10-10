@@ -101,7 +101,7 @@ function splitArray (thisArray) {
   // array[0]
   // array[1]
   // etc.
-return thisArray[0],thisArray[1], "was a", thisArray[2];
+return thisArray[1],thisArray[2], "was a", thisArray[3];
 
 }
 thisArray('Tim', 'Horton', 'Donut');
