@@ -76,6 +76,7 @@ new Array (returnArray)
 function returnArray (Tim, Horton, Donuts){
   let i=0
   while (i<returnArray.length){
+    console.log(returnArray[i])
     i+=1;
   }
 return returnArray
