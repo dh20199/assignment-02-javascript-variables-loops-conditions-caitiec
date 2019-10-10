@@ -73,7 +73,7 @@ function greeting() {
  */
 
 new Array ()
-function returnArray ("Tim", "Horton", "Donuts"){
+function returnArray (Tim, Horton, Donuts){
   let i=0
   while (i<returnArray.length){
     console.log(returnArray[i])
