@@ -147,7 +147,7 @@ function carefulSubtract (first, second) {
  */
 function typeTester (unknown) {
   switch (variables){ 
-    case {String}: return { (string) + ' '+'yay'};
+    case {String}: return { string + ' '+'yay'};
     case {Number}: return Number * Number;
     case {null}: return "sorry, I can't do anything with a null value";
     case {unknown} return "I don't know how to use that kind of variable";
