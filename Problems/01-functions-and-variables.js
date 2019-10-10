@@ -48,10 +48,9 @@ function hello() {
  * @param {string} name
  * @returns {string} a sentence that uses NAME i nits construction.
  */
-function greeting() {
+function greeting(name) {
 
   let hello = "Hello,",
-  name = "Ms. Atwood",
   ngreeting = hello + " " + name + "!";
   return ngreeting;
   // use the '+' operator to combine
@@ -72,21 +71,16 @@ function greeting() {
  * @returns {array} 
  */
 
-new Array ()
-Let first = "Tim"
-Let second = "Horton"
-Let third = "Donuts"
+
 function returnArray (first, second, third){
-  let i=0
-  while (i<returnArray.length){
-    console.log(returnArray[i])
-    i+=1;
-  }
-return returnArray
+
+  return [first, second, third];
+}
+
+returnArray('Tim', 'Horton','Donuts');
 
   // you can define the array using "new Array ()" or just "[ , , ]"
   // don't forget to return it
-}
 
 
 // Problem 4
