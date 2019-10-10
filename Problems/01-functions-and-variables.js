@@ -117,7 +117,10 @@ return [thisArray[0] + ' ' + thisArray[1] + ' ' + 'was a' + ' ' +thisArray[2]+ '
  * @returns {number} the difference of the two parameters
  */
 function subtract(number1, number2) {
-  return number2 - number1;
+  let A = number1;
+  B = number2; 
+  return B-A;
+  
   // subtract number2 from number1, and return the result.
 }
 
@@ -127,8 +130,9 @@ function subtract(number1, number2) {
 // "I can only subtract numbers."
 
 function carefulSubtract (first, second) {
-  if {number1 and number2 = Number, return number2 - number1;}
-  else {return "I can only subtract numbers"}
+
+  if (first=Number, second=Number) return second-first
+  else return "I can only subtract numbers"
   // test to be sure that both first and second are numbers.
   // if so, return the result. Otherwise, return the string
   // "I can only subtract numbers."
