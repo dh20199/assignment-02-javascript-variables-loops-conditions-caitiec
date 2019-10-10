@@ -71,14 +71,14 @@ function greeting() {
  * @param {"Donuts"} third
  * @returns {array} 
  */
-
-function returnArray (first, second, third) {
+new Array (
+function returnArray (first, second, third){
   let i=0
   while (i<returnArray.length){
     console.log(returnArray[i]);
     i+=1;
   }
-
+)
 
   // you can define the array using "new Array ()" or just "[ , , ]"
   // don't forget to return it
