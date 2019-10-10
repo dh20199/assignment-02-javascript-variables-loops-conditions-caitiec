@@ -71,7 +71,11 @@ function greeting() {
  * @param {} third
  * @returns {array} 
  */
-function returnArray ("Tim", "Horton", "donut") {
+
+ Let first = "Tim"
+ Let second = "Horton"
+ Let third = "donut"
+function returnArray (first, second, third) {
   let i=0
   while (i<returnArray.length){
     console.log(returnArray[i]);
