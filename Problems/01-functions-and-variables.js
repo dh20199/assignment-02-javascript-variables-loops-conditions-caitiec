@@ -72,10 +72,8 @@ function greeting() {
  * @returns {array} 
  */
 
+ new Array (alpha)
 function returnArray (first, second, third){
-let first = "Tim";
-let second = "Horton";
-let third = "Donuts";
   let i=0
   while (i<returnArray.length){
     console.log(returnArray[i]);
