@@ -73,13 +73,16 @@ function greeting() {
  */
 
 new Array ()
-function returnArray ('Tim', 'Horton', 'Donuts'){
+Let first = "Tim"
+Let second = "Horton"
+Let third = "Donuts"
+function returnArray (first, second, third){
   let i=0
   while (i<returnArray.length){
     console.log(returnArray[i])
     i+=1;
   }
-return Array
+return returnArray
 
   // you can define the array using "new Array ()" or just "[ , , ]"
   // don't forget to return it
