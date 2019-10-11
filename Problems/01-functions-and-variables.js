@@ -134,7 +134,6 @@ function carefulSubtract (first, second) {
   a=first;
   b=second; 
   c=b-a;
-
   if (first=Number, second=Number) return c;
   else return "I can only subtract numbers";
   // test to be sure that both first and second are numbers.
@@ -157,12 +156,21 @@ function carefulSubtract (first, second) {
  * @returns {} a meessage about unknown, or the square of unknown if it is a number
  */
 function typeTester (unknown) {
-  switch (variables){ 
-    case {String}: return {String + ' yay'};
-    case {Number}: return Number * Number;
-    case {null}: return "sorry, I can't do anything with a null value";
-    case {unknown} return "I don't know how to use that kind of variable";
+  switch (unknown){ 
+  case 0:
+    unknown=String; 
+    break;
+  case 1:
+    unknown=Number;
+    break;
+  case 2:
+    unknown=null;
+    break;
   }
+ 
+  if {(case 0); return String+' '+'yay';}
+  else {return "I don't know how to use that kind of variable"}
+  
   // use an if/else construction, a switch/case , or any other branching logic. Remember to
   // return a value. 
 }
