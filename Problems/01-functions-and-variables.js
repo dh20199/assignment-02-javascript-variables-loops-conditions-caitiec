@@ -31,7 +31,7 @@
  * @returns {string} should be exactly "Hello!"
  */
 function hello() {
-  let hello = "Hello!";
+  let hello = 'Hello!';
   return hello;
   // if you want you can declare a string variable first
   // or in this case you can just return the string directly
@@ -50,8 +50,8 @@ function hello() {
  */
 function greeting(name) {
 
-  let hello = "Hello,",
-  ngreeting = hello + " " + name + "!";
+  let hello = 'Hello,',
+      ngreeting = hello + ' ' + name + '!';
   return ngreeting;
   // use the '+' operator to combine
   // strings.  So for instance, if I wanted to
@@ -79,8 +79,8 @@ function returnArray (first, second, third){
 
 returnArray('Tim', 'Horton','Donuts');
 
-  // you can define the array using "new Array ()" or just "[ , , ]"
-  // don't forget to return it
+// you can define the array using "new Array ()" or just "[ , , ]"
+// don't forget to return it
 
 
 // Problem 4
@@ -102,7 +102,7 @@ function splitArray (thisArray) {
   // array[0]
   // array[1]
   // etc.
-return [thisArray[0] + ' ' + thisArray[1] + ' ' + 'was a' + ' ' +thisArray[2]+ '.'];
+  return [thisArray[0] + ' ' + thisArray[1] + ' ' + 'was a' + ' ' +thisArray[2]+ '.'];
 
 }
 
@@ -117,9 +117,9 @@ return [thisArray[0] + ' ' + thisArray[1] + ' ' + 'was a' + ' ' +thisArray[2]+ '
  * @returns {number} the difference of the two parameters
  */
 function subtract(number1, number2) {
-  a=number1;
-  b=number2;
-  c=b-a;
+  let a = number1;
+  let b = number2;
+  let c = b-a;
   return c;
   
   // subtract number2 from number1, and return the result.
@@ -131,11 +131,11 @@ function subtract(number1, number2) {
 // "I can only subtract numbers."
 
 function carefulSubtract (first, second) {
-  a=first;
-  b=second; 
-  c=b-a;
+  let a=first;
+  let b=second; 
+  let c=b-a;
   if (first=Number, second=Number) return c;
-  else return "I can only subtract numbers";
+  else return 'I can only subtract numbers';
   // test to be sure that both first and second are numbers.
   // if so, return the result. Otherwise, return the string
   // "I can only subtract numbers."
