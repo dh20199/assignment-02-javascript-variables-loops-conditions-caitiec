@@ -3,6 +3,7 @@
 ## Question 1 (50 words)
 #### When and why should you use a function like `carefulSubract` rather than `subtract`? 
 
+
 ## Question 2 (100 words)
 #### What are `data types`, and how does data typing work in JavaScript? Name at least 4 built-in data JS data types. 
 
