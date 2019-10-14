@@ -157,22 +157,22 @@ function carefulSubtract (first, second) {
  */
 function typeTester (unknown) {
   switch (unknown){ 
-  case 0:
+  case 1:
     unknown=String; 
     break;
-  case 1:
+  case 2:
     unknown=Number;
     break;
-  case 2:
+  case 3:
     unknown=null;
     break;
+
+    if (case 1:) return String+' '+'yay';
+    if (case 2:) return Number * Number;
+    if (case 3:) return "sorry, I can't do anything with a null value";
+    else {return "I don't know how to use that kind of variable"}
   }
- 
-  if {(case 0); return String+' '+'yay';};
-  if {(case 1); return Number * Number:};
-  if {(case 2); return "sorry, I can't do anything with a null value"};
-  else {return "I don't know how to use that kind of variable"}
-  
+
   // use an if/else construction, a switch/case , or any other branching logic. Remember to
   // return a value. 
 }
