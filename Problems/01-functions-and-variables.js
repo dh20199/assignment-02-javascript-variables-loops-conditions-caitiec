@@ -168,7 +168,9 @@ function typeTester (unknown) {
     break;
   }
  
-  if {(case 0); return String+' '+'yay';}
+  if {(case 0); return String+' '+'yay';};
+  if {(case 1); return Number * Number:};
+  if {(case 2); return "sorry, I can't do anything with a null value"};
   else {return "I don't know how to use that kind of variable"}
   
   // use an if/else construction, a switch/case , or any other branching logic. Remember to
