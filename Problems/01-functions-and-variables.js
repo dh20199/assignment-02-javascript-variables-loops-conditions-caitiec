@@ -133,7 +133,7 @@ function subtract(number1, number2) {
 function carefulSubtract (first, second) {
   let a=first;
   let b=second; 
-  let c=b-a;
+  let c=a-b;
   if (first=Number, second=Number) return c;
   else return 'I can only subtract numbers';
   // test to be sure that both first and second are numbers.
@@ -157,7 +157,10 @@ function carefulSubtract (first, second) {
  */
 function typeTester (unknown) {
 
-  
+  if (String) return String + ' yay!';
+  if (Number) return Number * Number;
+  if (null) return 'sorry, I cant do anything with a null value';
+  else return 'I dont know how to use that kind of variable';
 
   // use an if/else construction, a switch/case , or any other branching logic. Remember to
   // return a value. 
