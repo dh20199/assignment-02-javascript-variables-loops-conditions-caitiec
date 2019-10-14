@@ -108,6 +108,16 @@ function objectToSentence (obj) {
  * @returns {string} a sentence constructed from the object parameters
  */
 function wasWriter (obj) {
+
+  let first = obj.firstName;
+  let last = obj.lastName;
+  let prof = obj.profession;
+  
+  if (prof = 'novelist') {return first + last + ' was a ' + prof;}
+  else {return first + last + ' was not a ' + prof;}
+
+  
+
   // in an if/else statement
   // it is acceptable to put the
   // "return" statement inside the conditional braces
@@ -131,6 +141,9 @@ function wasWriter (obj) {
  * @returns {string}
  */
 function stringIterator (aString, aNumber) {
+  var i = 0;
+  while (i<aNumber) {console.log (aString[i]); i+1;}
+
   // remember a basic "for" loop has this structure:
   // for (var i = 0; i< SOMETHING; i++) {...statements...  };
 }

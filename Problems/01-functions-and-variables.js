@@ -131,11 +131,10 @@ function subtract(number1, number2) {
 // "I can only subtract numbers."
 
 function carefulSubtract (first, second) {
-  let a=first;
-  let b=second; 
-  let c=a-b;
-  if (first=Number, second=Number) return c;
+  if (first=Number, second=Number) return first-second;
   else return 'I can only subtract numbers';
+  
+ 
   // test to be sure that both first and second are numbers.
   // if so, return the result. Otherwise, return the string
   // "I can only subtract numbers."
@@ -156,7 +155,7 @@ function carefulSubtract (first, second) {
  * @returns {} a meessage about unknown, or the square of unknown if it is a number
  */
 function typeTester (unknown) {
-
+  
   if (String) return String + ' yay!';
   if (Number) return Number * Number;
   if (null) return 'sorry, I cant do anything with a null value';
