@@ -131,8 +131,10 @@ function subtract(number1, number2) {
 // "I can only subtract numbers."
 
 function carefulSubtract (first, second) {
-  if (first=Number, second=Number) return first-second;
+  let a = Number; 
+  if (first = a, second = a) return second-first;
   else return 'I can only subtract numbers';
+
   
  
   // test to be sure that both first and second are numbers.
