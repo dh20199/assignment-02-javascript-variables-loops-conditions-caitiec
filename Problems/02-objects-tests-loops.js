@@ -137,10 +137,11 @@ function wasWriter (obj) {
  * @returns {string}
  */
 function stringIterator (aString, aNumber) {
-  var i=0;
-
-  for (i<aNumber; i++;) {
-    return aString[i];
+  var i;
+  let ST = aString;
+  let NUM = aNumber;
+  for (i=0; i<NUM; i++) {
+    return ST[i];
   }
     
   
