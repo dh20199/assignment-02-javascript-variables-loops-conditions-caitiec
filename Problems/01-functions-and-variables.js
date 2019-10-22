@@ -164,7 +164,7 @@ function typeTester (unknown) {
 
   if (typeof(unknown) === 'string') return unknown + ' yay!';
   if (typeof(unknown) === 'number') return unknown * unknown;
-  if (typeof(unknown) === 'undefined') return 'sorry, I can\'t do anything with an undefined value.';
+  if (typeof(unknown) === 'undefined') return 'Sorry, I can\'t do anything with an undefined value.';
   else return 'I don\'t know how to use that kind of variable.';
 
   // use an if/else construction, a switch/case , or any other branching logic. Remember to
