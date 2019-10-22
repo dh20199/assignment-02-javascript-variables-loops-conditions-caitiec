@@ -213,7 +213,7 @@ function prettyIterator (aString, aNumber) {
  * @returns {string} 
  */
 function computeReign (pm) {
-  let NUM = pm.toparty - pm.from;
+  let NUM = Number.isInteger(pm.toparty) - Number.isInteger(pm.from);
   return pm.fullName + '\'s reign was ' + NUM + ' years long.';
 
   // declare a variable, setting it equal to the
