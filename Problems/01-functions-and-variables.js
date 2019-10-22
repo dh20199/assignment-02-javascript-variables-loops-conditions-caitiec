@@ -157,10 +157,13 @@ function carefulSubtract (first, second) {
  * @returns {} a meessage about unknown, or the square of unknown if it is a number
  */
 function typeTester (unknown) {
-  
-  if (String) return String + ' yay!';
-  if (Number) return Number * Number;
-  if (null) return 'sorry, I cant do anything with a null value';
+  let S = String;
+  let N = Number;
+  let n = null;
+
+  if (S) return S + ' yay!';
+  if (N) return N * N;
+  if (n) return 'sorry, I cant do anything with a null value';
   else return 'I dont know how to use that kind of variable';
 
   // use an if/else construction, a switch/case , or any other branching logic. Remember to
