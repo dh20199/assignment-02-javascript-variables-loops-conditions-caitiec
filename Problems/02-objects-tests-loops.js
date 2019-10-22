@@ -137,7 +137,12 @@ function wasWriter (obj) {
  * @returns {string}
  */
 function stringIterator (aString, aNumber) {
-
+  var i=0;
+  for (i<aNumber; i++;) {
+    return aString;
+  }
+    
+  
 
   // remember a basic "for" loop has this structure:
   // for (var i = 0; i< SOMETHING; i++) {...statements...  };
