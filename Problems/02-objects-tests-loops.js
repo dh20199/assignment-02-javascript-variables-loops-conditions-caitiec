@@ -138,10 +138,8 @@ function wasWriter (obj) {
  */
 function stringIterator (aString, aNumber) {
   var i;
-  let ST = aString;
-  let NUM = aNumber;
-  for (i=0; i<NUM; i++) {
-    return ST[i];
+  for (i=0; i < Number.IsInterger(aNumber); i++) {
+    return aString[i];
   }
     
   
