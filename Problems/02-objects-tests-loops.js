@@ -138,8 +138,9 @@ function wasWriter (obj) {
  */
 function stringIterator (aString, aNumber) {
   var i=0;
+
   for (i<aNumber; i++;) {
-    return aString;
+    return aString[i];
   }
     
   
