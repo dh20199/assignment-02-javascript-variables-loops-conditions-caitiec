@@ -67,7 +67,7 @@ function returnObject (first, last, prof) {
  */
 function objectToSentence (obj) {
 
-  return obj.firstName + ' ' + obj.lastName + ' was a ' + obj.profession;
+  return obj.firstName + ' ' + obj.lastName + ' was a ' + obj.profession + '.';
 
 
   // remember you can refer to object properties using either of 2 methods
@@ -108,8 +108,9 @@ function objectToSentence (obj) {
  */
 function wasWriter (obj) {
   
-  if (obj.profession === 'novelist') return obj.firstName + ' ' + obj.lastName + ' was a ' + obj.profession;
-  else return obj.firstName + ' ' + obj.lastName + ' was not a ' + obj.profession; 
+  if (obj.profession === 'novelist') return obj.firstName + ' ' + obj.lastName + ' was a writer.';
+  if (obj.profession === 'writer') return obj.firstName + ' ' + obj.lastName + ' was a writer.';
+  else return obj.firstName + ' ' + obj.lastName + ' was not a writer.'; 
 
   
 
