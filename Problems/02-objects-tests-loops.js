@@ -20,12 +20,7 @@
  * @returns {object} should have the properties FIRSTNAME, LASTNAME, and PROFESSION
  */
 function returnObject (first, last, prof) {
-  var o = Object;
-  o.firstName = first;
-  o.lastName = last;
-  o.profession = prof;
-  
-  return o.firstName, o.lastName, o.profession;
+ 
   
 
   // it might be easiest here to declare a variable
@@ -64,13 +59,7 @@ function returnObject (first, last, prof) {
  * @returns {string} a sentence constructed from the object parameters 
  */
 function objectToSentence (obj) {
-  let first = obj.firstName;
-  let last = obj.lastName;
-  let prof = obj.profession;
 
-  let sentence = first + last + ' was a ' + prof;
-
-  return sentence;
   // remember you can refer to object properties using either of 2 methods
   // obj['propertyname']
   // or
@@ -109,12 +98,7 @@ function objectToSentence (obj) {
  */
 function wasWriter (obj) {
 
-  let first = obj.firstName;
-  let last = obj.lastName;
-  let prof = obj.profession;
-  
-  if (prof = 'novelist') {return first + last + ' was a ' + prof;}
-  else {return first + last + ' was not a ' + prof;}
+ 
 
   
 
@@ -141,8 +125,7 @@ function wasWriter (obj) {
  * @returns {string}
  */
 function stringIterator (aString, aNumber) {
-  var i = 0;
-  while (i<aNumber) {console.log (aString[i]); i+1;}
+
 
   // remember a basic "for" loop has this structure:
   // for (var i = 0; i< SOMETHING; i++) {...statements...  };

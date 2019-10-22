@@ -136,7 +136,7 @@ function carefulSubtract (first, second) {
   let R = first - second;
   if (Number.isInteger(F) && Number.isInteger(S)) {return R;}
   else {
-    return 'I can only subtract numbers'
+    return 'I can only subtract numbers.';
   }
 
   
@@ -164,8 +164,8 @@ function typeTester (unknown) {
 
   if (typeof(unknown) === 'string') return unknown + ' yay!';
   if (typeof(unknown) === 'number') return unknown * unknown;
-  if (typeof(unknown) === 'undefined') return 'sorry, I cant do anything with a null value';
-  else return 'I dont know how to use that kind of variable';
+  if (typeof(unknown) === 'undefined') return 'sorry, I can/t do anything with an undefined value';
+  else return 'I don/t know how to use that kind of variable';
 
   // use an if/else construction, a switch/case , or any other branching logic. Remember to
   // return a value. 
