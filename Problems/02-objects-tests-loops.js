@@ -138,12 +138,12 @@ function wasWriter (obj) {
  */
 function stringIterator (aString, aNumber) { 
   let obj = Object;
-  var repeatedString = '';
-  while (obj.aNumber>0) {
-    repeatedString += obj.aString;
-    obj.aNumber--;
+  
+  for (var i = 0; i < obj.aNumber; i++) {
+    console.log(aString);
   }
-  return repeatedString;
+  i+=1;
+  
 }
     
   
