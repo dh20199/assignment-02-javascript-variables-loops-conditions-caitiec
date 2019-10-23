@@ -138,8 +138,10 @@ function wasWriter (obj) {
  */
 function stringIterator (aString, aNumber) { 
 
+  var Str = '';
   for (var i = 0; i < Number.isInteger(aNumber); i++) {
-    console.log(aString); i+=1;
+    Str + aString; i+=1;
+    return Str; 
   }
   
 }
@@ -273,13 +275,8 @@ function computeReign (pm) {
  *  the properties of the individual objects comprising `list`
  */
 function sentences(list) {
-  let obj = Object;
-  let NUM = obj.from - obj.to;
-  let fullName = obj.fullName;
-  var i;
-  for ( i of obj.ministers) {
-    console.log (fullName + '\'s reign was ' + NUM + ' years long.');
-  }
+
+  
 
     
 }
