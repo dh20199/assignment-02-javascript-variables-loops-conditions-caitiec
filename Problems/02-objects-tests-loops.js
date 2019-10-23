@@ -137,10 +137,9 @@ function wasWriter (obj) {
  * @returns {string}
  */
 function stringIterator (aString, aNumber) { 
-  
-  for (var i = 0; i < aNumber; i++) {
-    console.log(aString);
-    i+=1;
+
+  for (var i = 0; i < Number.isInteger(aNumber); i++) {
+    console.log(aString); i+=1;
   }
   
 }
