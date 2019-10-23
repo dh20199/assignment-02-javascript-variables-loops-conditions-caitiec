@@ -142,7 +142,7 @@ function stringIterator (aString, aNumber) {
     console.log(aString);
     i+=1;
   }
-  return aString;
+  
 }
     
   
