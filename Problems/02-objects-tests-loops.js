@@ -277,7 +277,7 @@ function sentences(list) {
   let NUM = obj.from - obj.to;
   let fullName = obj.fullName;
   var i;
-  for ( i of fullName) {
+  for ( i of obj.ministers) {
     console.log (fullName + '\'s reign was ' + NUM + ' years long.');
   }
 
