@@ -140,8 +140,8 @@ function stringIterator (aString, aNumber) {
   
   for (var i = 0; i < aNumber; i++) {
     console.log(aString);
+    i+=1;
   }
-  i+=1;
   return aString;
 }
     
