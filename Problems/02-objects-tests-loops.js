@@ -276,13 +276,13 @@ function computeReign (pm) {
 function sentences(list) {
 
     
-  }
-  
-  // Hint: "ministers" is an ARRAY of OBJECTS. The simplest way to solve this problem
-  // is to use the "for...of" loop syntax to loop through the array,
-  // and the object[attribute] or object.attribute reference format to access
-  // the internal components of the objects.
 }
+  
+// Hint: "ministers" is an ARRAY of OBJECTS. The simplest way to solve this problem
+// is to use the "for...of" loop syntax to loop through the array,
+// and the object[attribute] or object.attribute reference format to access
+// the internal components of the objects.
+
 
 // DO NOT MODIFY -- FOR AUTOMATED TESTING ONLY
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
