@@ -274,10 +274,7 @@ function computeReign (pm) {
  *  the properties of the individual objects comprising `list`
  */
 function sentences(list) {
-  var people = list.fullName;
-  var i;
-  let NUM = list.from - list.to;
-  for (i of people) {
+
     
   }
   
