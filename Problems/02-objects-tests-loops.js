@@ -273,9 +273,11 @@ function computeReign (pm) {
  *  the properties of the individual objects comprising `list`
  */
 function sentences(list) {
-  let NUM = list.from - list.to;
-  let fullName = list.fullName;
-  for (fullName of list) {
+  let obj = Object;
+  let NUM = obj.from - obj.to;
+  let fullName = obj.fullName;
+  var i;
+  for ( i of fullName) {
     console.log (fullName + '\'s reign was ' + NUM + ' years long.');
   }
 
