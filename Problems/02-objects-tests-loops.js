@@ -136,10 +136,13 @@ function wasWriter (obj) {
  * @param {number} aNumber
  * @returns {string}
  */
-function stringIterator (aString, aNumber) {
-  var i;
-  for (i=0; i < Number.IsInterger(aNumber); i++) {
-    return aString[i];
+function stringIterator (aString, aNumber) { 
+  obj.aString = ""
+  while (obj.aNumber>0) {
+    repeatedString += string;
+    times--
+  }
+  return obj.String;
   }
     
   
@@ -271,6 +274,12 @@ function computeReign (pm) {
  *  the properties of the individual objects comprising `list`
  */
 function sentences(list) {
+  var people = list.fullName;
+  var i;
+  let NUM = list.from - list.to;
+  for (i of people) {
+    
+  }
   
   // Hint: "ministers" is an ARRAY of OBJECTS. The simplest way to solve this problem
   // is to use the "for...of" loop syntax to loop through the array,
