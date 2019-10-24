@@ -275,14 +275,14 @@ function computeReign (pm) {
  */
 function sentences(list) {
 
-  let obj = Object;
-  let NUM = obj.from - obj.to;
-  let fullName = obj.fullName;
-  var i;
-  var str = fullName + '\'s reign was ' + NUM + ' years long.';
-  for (i of obj.ministers) {
-    i = 0; i < list.length; i++
-    return str;
+  // let obj = Object;
+  // let NUM = obj.from - obj.to;
+  // let fullName = obj.fullName;
+  // var i;
+  // var str = fullName + '\'s reign was ' + NUM + ' years long.';
+  // for (i of obj.ministers) {
+  //   i = 0; i < list.length; i++
+  //   return str;
 
     
 }
