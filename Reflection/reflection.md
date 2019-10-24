@@ -19,4 +19,6 @@ The advantage to storing information as an object rather than as an array is tha
 ## Question 4 (150 words)
 #### The function `sentences` transforms a data structure (in this case, a list of object literals) into a sequence of sentences. If the data structure were less predictable (e.g., if some properties of each object were occasionally missing, or if their data type was not always the same), what programming techniques could you use to ensure that your function produced a coherent output? Also, can you think of a more interesting "transform" that could be done with the same data structure?
 
+If part of the data was missing, you could write in an if/else statement to test firstthat you had the necessary information. For example, you could say that if both years were there, subtract the years to know how long their reign was...else write a sentence along the lines of "persons reign length was unknown" (or something of the sort.) By doing this, even if the function couldn't access a piece of information, it could still tell you the other relevant information such as the ministers name and party, and if available at least part of the information (such as whatyearthey came into office). 
+
 

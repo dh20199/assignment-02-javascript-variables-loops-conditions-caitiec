@@ -173,6 +173,13 @@ function stringIterator (aString, aNumber) {
  * @returns   {string}
  */
 function prettyIterator (aString, aNumber) {
+  
+  var str = '';
+  for (var i = 1; i < aNumber+1; i++) {
+    str += aString + '(' + i + ')' + '\n';
+  } 
+  return str; 
+
   // be sure to check your results on this one; it has a trick. maybe 2. 
 }
 
@@ -275,14 +282,17 @@ function computeReign (pm) {
  */
 function sentences(list) {
 
-  // let obj = Object;
-  // let NUM = obj.from - obj.to;
-  // let fullName = obj.fullName;
-  // var i;
-  // var str = fullName + '\'s reign was ' + NUM + ' years long.';
-  // for (i of obj.ministers) {
-  //   i = 0; i < list.length; i++
-  //   return str;
+  var i;
+  var NUM;
+  var fullName;
+  var str = '';
+  for (i of list) {
+    NUM = i.to - i.from;
+    fullName = i.fullName;
+    str += fullName + '\'s reign was ' + NUM + ' years long.' + '\n';
+    
+  }
+  return str;
 
     
 }
